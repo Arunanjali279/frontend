@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    /*border:1px solid balck;*/
+}
+.navbar-brand{
+    width: 10;
+}
+.navbar{
+    background-color:#ec407a ;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-link:hover{
+    border: 2px solid #ec407a;
+    color: white;
+}
+.fa-bars{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*home*/
+.bgimg{
+    background-image:url("https://img.freepik.com/free-photo/bowl-banana-split-ice-cream-with-banana-split-bananas-top_188544-32639.jpg?t=st=1735558712~exp=1735562312~hmac=2cb13ba9237d78d2e8d19029e2aedd46137ae05fb1626c6c102ad323b0e77b54&w=1380");
+    width: 99vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center ;
+}
+.bt{
+    font-size: 20px;
+    font-weight: bold;
+}
+.head{
+    color: white;
+    text-shadow: 1px 2px 3px black;
+}
+@media screen and (min-width: 350px) and (max-width: 700px){
+    .bgimg{
+        height:40vh;
+    }
+}
+/*about*/
+.carousel-item.d-block{
+    aspect-ratio: 7/2;
+    width:100%
+}
+.one{
+    background-color: #ec407a;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 2%;
+}
+.two{
+    background-color: white;
+    color: #ec407a;
+    font-weight: bold;
+    line-height: 40px;
+    border: 1px solid #ec407a;
+    padding: 2%;
+}
+#about{
+    margin-bottom: 3%;
+}
+/*product*/
+.card-title{
+    color: #ec407a;
+}
+.card-text{
+    color:green;
+    font-size:30px;
+}
+.card-img-top{
+    aspect-ratio: 3/4;
+    width: 100%;
+}
+/*paytm*/
+.input-group-text{
+    color: white;
+    font-weight: bold;
+    background-color: #ec407a;
+    border:none
+}
+/*contact*/
+.form-label{
+    color: #ec407a;
+    font-weight: bold;
+}
+/*footer*/
+.bgi{
+    background-color: #ec407a;
+}
+.texts{
+    color: white;
+    text-decoration: 5px solid yellow underline;
+}
+.icons{
+    color: white;
+    font-size: 30px;
+}
+.icons.fa-brands:hover{
+    transform: rotate(90deg);
+    color: skyblue;
+}
+.last{
+    color: beige;
+    font-weight: bold;
+}
